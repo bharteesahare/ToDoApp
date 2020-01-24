@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  database: ToDoApp_development
+  pool: 5
+  timeout: 50
+  host: localhost
+  username: davejc
+  password: davejc
+  
+test:
+  adapter: postgresql
+  database: ToDoApp_test
+  pool: 5
+  timeout: 5000
+  host: localhost
+  username: davejc  
+  password: davejc
+
+production:
+  adapter: postgresql
+  database: ToDoApp_production
+  pool: 5
+  timeout: 5000
+  username:  
+  password:
+
